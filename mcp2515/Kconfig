@@ -1,0 +1,10 @@
+#
+# MCP2515 device configuration
+#
+
+config CAN0
+	tristate "Microchip CAN0 devices(GPIO simulate SPI)"
+	default y
+	help 
+		Auther: horotororensu
+		Address: han.liu@keluofeite.com
